@@ -1,0 +1,36 @@
+.title-block {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-title {
+  font-size: 24px;
+  font-weight: 700;
+  display: inline-block;
+  color: black;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.nav-link {
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.material-icons {
+  font-size: 24px;  
+  display: inline-flex;
+  vertical-align: middle;
+}

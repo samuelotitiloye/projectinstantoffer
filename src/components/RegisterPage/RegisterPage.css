@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'ostrich-regular';
+    src: url('ostrich-regular.ttf');
+  }
+
+  .header {
+    font-family: ostrich-regular, Calibri, sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    color:white;
+  }
+
+h1.header {
+    margin: 15px;
+}
+
+.body {
+    background: #7474BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    margin: auto;
+    overflow: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
