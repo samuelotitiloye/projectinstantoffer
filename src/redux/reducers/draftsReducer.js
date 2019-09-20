@@ -4,7 +4,7 @@ const draftsReducer = (state = [], action) => {
       return action.payload
     case 'REMOVE_DRAFT':
       return state.filter((value, index, arr) => {
-        return value.id != action.payload;
+        return value.id !== action.payload;
       })
     default:
       return state;

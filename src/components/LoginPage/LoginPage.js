@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
 import TextField from '@material-ui/core/TextField';
+// import {MuiThemeProvider} from '@material-ui/core/styles/MuiThemeProvider';
 import Container from '@material-ui/core/Container';
 import { createMuiTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles';
@@ -152,7 +153,7 @@ class LoginPage extends Component {
                   component="button"
                   variant="body2"
                   fullWidth
-                  variant="outlined"
+                  variant-outline="outlined"
                   onClick={() => { this.props.dispatch({ type: 'SET_TO_REGISTER_MODE' }) }}
                 >
                   {"Don't have an account? Sign Up!"}

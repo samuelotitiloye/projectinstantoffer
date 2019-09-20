@@ -102,7 +102,7 @@ class RegisterPage extends Component {
                       value={this.state.username}
                       onChange={this.handleInputChangeFor('username')}
                       style={styles.TextField}
-                      style={{
+                      style-background={{
                         backgroundColor: "rgba(255, 255, 255, 0.9)"
                       }}
                       InputProps={{
@@ -128,7 +128,7 @@ class RegisterPage extends Component {
                       onChange={this.handleInputChangeFor('password')}
                       color="primary"
                       style={styles.TextField}
-                      style={{
+                      style-background={{
                         backgroundColor: "rgba(255, 255, 255, 0.9)"
                       }}
                       InputProps={{
@@ -157,7 +157,7 @@ class RegisterPage extends Component {
                   component="button"
                   variant="body2"
                   fullWidth
-                  variant="outlined"
+                  variant-outline="outlined"
                   onClick={() => { this.props.dispatch({ type: 'SET_TO_LOGIN_MODE' }) }}
                 >
                   {"Back to Login"}
@@ -175,6 +175,6 @@ const mapStateToProps = state => ({
   errors: state.errors,
 });
 
-const mapReduxStateToProps = reduxState => reduxState
+const mapReduxStateToProps = reduxState => reduxState;
 
 export default connect(mapReduxStateToProps)(withRouter(RegisterPage));
