@@ -1,5 +1,5 @@
 ## Instant Offer
-Instant Offer was made to cut down on the time it takes to repeatedly fill out an Purchase to Offer and Listing Contracts realty forms. Being mobile friendly and avalible 24/7, this product can cut down the time spent traveling back and forth from the office.
+Instant Offer was made to cut down on the time it takes to repeatedly fill out a Purchase to Offer and Listing Contracts realty forms. Being mobile friendly and avalible 24/7, this product can cut down the time spent traveling back and forth from the office.
 
 ## Prerequisites
 
