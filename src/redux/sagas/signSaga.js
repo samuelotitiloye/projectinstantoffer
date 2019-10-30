@@ -8,7 +8,8 @@ function* sendSignatureToDatabase(action) {
     try {
         yield axios.post('/api/listing/signature', action.payload)
         console.log(action.payload);
-        //then run below code to retrieve the signature from db to bed place on our document
+        // the object returned is our payload
+        //then run below code to retrieve the signature from db to be place on our document
         // const returnedSignature = yield axios.get('/api/Listing_Contract')
         // yield put({ type: 'SET_SIGNATURE', payload: returnedSignature.data })
         //    console.log(returnedSignature.data);

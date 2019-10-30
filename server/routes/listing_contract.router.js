@@ -29,7 +29,7 @@ router.post('/pdf/:id', rejectUnauthenticated, (req, res) => {
         console.log(sig_path)
       });
 
-      if (answers.L3) {
+      if (answers.L3) { 
         pdf_filename += `for ${answers.L3}`
       }
       pdf_filename += ".pdf"
