@@ -13,7 +13,7 @@
     "dotenv": "^4.0.0",
     "express": "^4.16.4",
     "hummus": "^1.0.105",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "pg": "^7.9.0",
